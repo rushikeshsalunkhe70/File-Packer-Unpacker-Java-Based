@@ -105,20 +105,9 @@ int encryptedByte = (data[i] + (keyChar + 3)) % 256;
 - **Data**: Encrypted file content using custom ASCII shifting
 - **Structure**: Sequential files with headers
 
-## 📊 Example Encryption Process
 
-### Key: "omwakhare"
-| Key Character | ASCII | +3 for Encryption | Used For |
-|---------------|-------|-------------------|----------|
-| o | 111 | 114 (r) | Byte 1, 10, 19, ... |
-| m | 109 | 112 (p) | Byte 2, 11, 20, ... |
-| w | 119 | 122 (z) | Byte 3, 12, 21, ... |
-| a | 97 | 100 (d) | Byte 4, 13, 22, ... |
-| k | 107 | 110 (n) | Byte 5, 14, 23, ... |
-| h | 104 | 107 (k) | Byte 6, 15, 24, ... |
-| a | 97 | 100 (d) | Byte 7, 16, 25, ... |
-| r | 114 | 117 (u) | Byte 8, 17, 26, ... |
-| e | 101 | 104 (h) | Byte 9, 18, 27, ... |
+
+
 
 ## 🐛 Debug Features
 
